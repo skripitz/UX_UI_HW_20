@@ -1,0 +1,131 @@
+/* nav section */
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: white !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  width: 150px;
+}
+.nav-item {
+  margin: 0px 15px;
+  font-size: 20px;
+}
+
+/* About Me Section */
+
+.header h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+  align-items: flex-start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+ 
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  height: 500px;
+  width: 500px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  }
+
+ .resume {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 3px;
+  }
+
+.PictureOfMe img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  float: right;
+  margin-left: 100px;
+}
+
+/* My Skills section */
+
+.card {
+  background-color:lightgray;
+}
+
+.card-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 30px;
+  text-align: left;
+}
+
+/* My Projects */
+
+.allProjects {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-family: "Barlow";
+  margin: 5px 5px;
+}
+
+/* footer section */
+
+.footer {
+  background-color: darkgrey;
+  padding: 20px 40px;
+  font-family:"barlow";
+
+}
+
+.footer h1 {
+  font-weight: bold;
+  font-family: "barlow";
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px){
+  #uxresearch, #ui, #webdev {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
