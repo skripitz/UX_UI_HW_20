@@ -18,7 +18,9 @@
   margin: 0px 15px;
   font-size: 20px;
 }
+/* END nav section */
 
+/* title*/
 
 .container h1 {
   text-align: center;
@@ -27,15 +29,4 @@
 .container h2 {
   text-align: center;
 }
-
-@media only screen and (max-width: 600px){
-  #uxresearch, #ui, #webdev {
-    display: flex;
-    flex-direction: column;
-  }
-  .skills {
-    display: flex;
-    flex-direction: column;
-  }
-
-}
+/* END title*/
