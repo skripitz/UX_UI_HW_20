@@ -21,12 +21,31 @@
 /* END nav section */
 
 /* title*/
-
-.container h1 {
+.title h1 {
+  margin-top: 10px;
   text-align: center;
+  font-weight: bold;
+  
 }
 
-.container h2 {
+.title h2 {
   text-align: center;
 }
 /* END title*/
+
+/* introductory section*/
+
+/* END intro */
+
+/* Research */
+
+/* END Research */
+
+/* Ideation */
+.card {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+/* END Ideation */
